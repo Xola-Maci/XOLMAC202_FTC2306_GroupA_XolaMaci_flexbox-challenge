@@ -1,9 +1,17 @@
 ul {
     list-style: none;
-    width: 75vw;
+    width: 50vw;
 
     /* add solution here */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    height: 40vh;
+    align-items: stretch;
+    flex-grow: 2;
 }
+
 
 li {
     padding: 10px;

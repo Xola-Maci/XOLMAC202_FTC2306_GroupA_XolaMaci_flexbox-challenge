@@ -1,7 +1,12 @@
 .parent {
-    height: 50vh;
+    height: 10vh;
+    width: 50vw;
 
     /* add solution here */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 
 .child {
